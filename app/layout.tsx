@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className='relative'>
+      <body className='relative bg-gradient-to-r from-gray-50 to-gray-300'>
         <Navbar />
         {children}
         <Footer />

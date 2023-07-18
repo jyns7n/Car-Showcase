@@ -17,7 +17,7 @@ const CustomFilter = ({ title, options }: CustomFilterProps) => {
   };
 
   return (
-    <div className='w-fit'>
+    <div className='w-fit ml-[10px]'>
       <Listbox
         value={selected}
         onChange={(e) => {

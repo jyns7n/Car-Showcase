@@ -1,5 +1,6 @@
 import {
   CustomFilter,
+  Feature,
   Hero,
   SearchBar,
   SearchManufacturer,
@@ -8,7 +9,6 @@ import CarCard from '@/components/CarCard';
 import ShowMore from '@/components/ShowMore';
 import { fuels, yearsOfProduction } from '@/constants';
 import { fetchCars } from '@/utils';
-import { log } from 'console';
 
 export default async function Home({ searchParams }) {
   const allCars = await fetchCars({
@@ -24,6 +24,7 @@ export default async function Home({ searchParams }) {
   return (
     <main className='overflow-hidden'>
       <Hero />
+      <Feature />
 
       <div className='mt-12 padding-x padding-y max-width' id='discover'>
         <div className='home__text-container'>

@@ -1,4 +1,5 @@
 import {
+  BrandList,
   CustomFilter,
   Feature,
   Hero,
@@ -25,6 +26,7 @@ export default async function Home({ searchParams }) {
     <main className='overflow-hidden'>
       <Hero />
       <Feature />
+      <BrandList />
 
       <div className='mt-12 padding-x padding-y max-width' id='discover'>
         <div className='home__text-container'>

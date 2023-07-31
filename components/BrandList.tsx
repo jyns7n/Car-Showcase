@@ -4,7 +4,7 @@ const BrandList = () => {
   return (
     <section className='bg-white'>
       <div className='py-8 px-4 mx-auto max-w-[1440px] sm:py-16 lg:px-14'>
-        <div className='max-w-screen-md mb-8 lg:mb-16 md:ml-10 lg:ml-0'>
+        <div className='max-w-screen-md mb-8 lg:mb-16 ml-10 md:ml-10 lg:ml-0'>
           <h2 className='mb-3 text-4xl tracking-tight font-extrabold text-black-100 '>
             Search by Brands
           </h2>
